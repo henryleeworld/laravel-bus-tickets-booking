@@ -1,5 +1,7 @@
 <?php
 
+namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 
 class BusesTableSeeder extends Seeder
@@ -21,6 +23,6 @@ class BusesTableSeeder extends Seeder
             ];
         }
 
-        \App\Bus::insert($buses);
+        \App\Models\Bus::insert($buses);
     }
 }

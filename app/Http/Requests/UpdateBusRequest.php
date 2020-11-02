@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-use App\Bus;
+use App\Models\Bus;
 use Gate;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\Response;

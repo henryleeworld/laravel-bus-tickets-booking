@@ -57,7 +57,7 @@
                 <label class="required">{{ trans('cruds.booking.fields.status') }}</label>
                 <select class="form-control {{ $errors->has('status') ? 'is-invalid' : '' }}" name="status" id="status" required>
                     <option value disabled {{ old('status', null) === null ? 'selected' : '' }}>{{ trans('global.pleaseSelect') }}</option>
-                    @foreach(App\Booking::STATUS_SELECT as $key => $label)
+                    @foreach(App\Models\Booking::STATUS_SELECT as $key => $label)
                         <option value="{{ $key }}" {{ old('status', 'processing') === (string) $key ? 'selected' : '' }}>{{ $label }}</option>
                     @endforeach
                 </select>

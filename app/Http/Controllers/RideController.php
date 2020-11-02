@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Booking;
 use App\Http\Requests\BookRideRequest;
-use App\Ride;
+use App\Models\Booking;
+use App\Models\Ride;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 

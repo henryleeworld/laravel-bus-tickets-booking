@@ -2,12 +2,12 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Bus;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyRideRequest;
 use App\Http\Requests\StoreRideRequest;
 use App\Http\Requests\UpdateRideRequest;
-use App\Ride;
+use App\Models\Bus;
+use App\Models\Ride;
 use Gate;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;

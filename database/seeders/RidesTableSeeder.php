@@ -1,6 +1,8 @@
 <?php
 
-use App\Bus;
+namespace Database\Seeders;
+
+use App\Models\Bus;
 use Faker\Factory;
 use Illuminate\Database\Seeder;
 
@@ -34,6 +36,6 @@ class RidesTableSeeder extends Seeder
             $faker->unique(true);
         }
 
-        \App\Ride::insert($rides);
+        \App\Models\Ride::insert($rides);
     }
 }

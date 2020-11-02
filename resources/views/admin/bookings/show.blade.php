@@ -60,7 +60,7 @@
                             {{ trans('cruds.booking.fields.status') }}
                         </th>
                         <td>
-                            {{ App\Booking::STATUS_SELECT[$booking->status] ?? '' }}
+                            {{ App\Models\Booking::STATUS_SELECT[$booking->status] ?? '' }}
                         </td>
                     </tr>
                 </tbody>

@@ -64,7 +64,7 @@
                         <td>
                             <select class="search" strict="true">
                                 <option value>{{ trans('global.all') }}</option>
-                                @foreach(App\Booking::STATUS_SELECT as $key => $item)
+                                @foreach(App\Models\Booking::STATUS_SELECT as $key => $item)
                                     <option value="{{ $key }}"{{ request()->input('status') == $key ? ' selected' : '' }}>{{ $item }}</option>
                                 @endforeach
                             </select>
@@ -92,7 +92,7 @@
                                 {{ $booking->phone ?? '' }}
                             </td>
                             <td>
-                                {{ App\Booking::STATUS_SELECT[$booking->status] ?? '' }}
+                                {{ App\Models\Booking::STATUS_SELECT[$booking->status] ?? '' }}
                             </td>
                             <td>
                                 @can('booking_show')
