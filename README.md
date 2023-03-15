@@ -1,6 +1,6 @@
-# Laravel 8 國道客運車票預訂
+# Laravel 9 國道客運車票預訂
 
-整合多家客運業資訊，旅客查詢、訂購國道客運車票更省時、便利。Laravel 8 國道客運車票預訂主要是用 [QuickAdminPanel](https://quickadminpanel.com) 生成的，除了一些定制代碼，可依需求彈性改造的工具。
+整合多家客運業資訊，旅客查詢、訂購國道客運車票更省時、便利。
 
 ## 使用方式
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
@@ -27,11 +27,11 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/HoJfO9u.png)
+![](https://i.imgur.com/q8Z92wo.png)
 > 旅客查詢、預訂國道客運車票更省時、便利
 
-![](https://i.imgur.com/DkgQKkg.png)
+![](https://i.imgur.com/R4VNfjh.png)
 > 加入國道客運，提供旅遊交通服務
 
-![](https://i.imgur.com/bHplCid.png)
+![](https://i.imgur.com/L6y9F6b.png)
 > 請務必留意發車時間並提前完成旅客預訂手續

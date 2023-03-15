@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class AddRelationshipFieldsToBookingsTable extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -13,4 +13,4 @@ class AddRelationshipFieldsToBookingsTable extends Migration
             $table->foreign('ride_id', 'ride_fk_1918935')->references('id')->on('rides');
         });
     }
-}
+};
