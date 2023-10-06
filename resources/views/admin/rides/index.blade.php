@@ -26,28 +26,28 @@
                             {{ trans('cruds.ride.fields.bus') }}
                         </th>
                         <th>
-                            Route
+                            {{ trans('cruds.ride.fields.route') }}
                         </th>
                         <th>
-                            Departs
+                            {{ trans('cruds.ride.fields.departs') }}
                         </th>
                         <th>
-                            Arrives
+                            {{ trans('cruds.ride.fields.arrives') }}
                         </th>
                         <th>
-                            Is Open
+                            {{ trans('cruds.ride.fields.is_open') }}
                         </th>
                         <th>
-                            Places Left
+                            {{ trans('cruds.ride.fields.places_left') }}
                         </th>
                         <th>
-                            Confirmed Bookings
+                            {{ trans('cruds.ride.fields.confirmed_bookings') }}
                         </th>
                         <th>
-                            Rejected Bookings
+                            {{ trans('cruds.ride.fields.rejected_bookings') }}
                         </th>
                         <th>
-                            Processing Bookings
+                            {{ trans('cruds.ride.fields.processing_bookings') }}
                         </th>
                         <th>
                             &nbsp;

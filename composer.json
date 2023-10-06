@@ -1,30 +1,29 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "description": "The skeleton application for the Laravel framework.",
+    "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.0.2",
-        "doctrine/dbal": "^3.6",
-        "guzzlehttp/guzzle": "^7.7",
-        "laravel/framework": "^9.52",
-        "laravel/passport": "^11.8",
-        "laravel/sanctum": "^3.2",
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.8",
+        "laravel/framework": "^10.22",
+        "laravel/passport": "^11.9",
+        "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2",
-        "yajra/laravel-datatables-oracle": "^10.7"
+        "yajra/laravel-datatables-oracle": "^10.8"
     },
     "require-dev": {
         "bugsnag/bugsnag-laravel": "^2.26",
         "fakerphp/faker": "^1.23.0",
-        "laravel/dusk": "^7.9",
-        "laravel/pint": "^1.10",
-        "laravel/sail": "^1.23.0",
-        "mockery/mockery": "^1.6.5",
-        "nunomaduro/collision": "^6.4",
-        "phpunit/phpunit": "^9.6.10",
-        "spatie/laravel-ignition": "^1.6"
+        "laravel/dusk": "^7.10",
+        "laravel/pint": "^1.12",
+        "laravel/sail": "^1.23",
+        "mockery/mockery": "^1.6.6",
+        "nunomaduro/collision": "^7.8",
+        "phpunit/phpunit": "^10.3",
+        "spatie/laravel-ignition": "^2.3"
     },
     "autoload": {
         "psr-4": {
@@ -63,7 +62,8 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "allow-plugins": {
-            "pestphp/pest-plugin": true
+            "pestphp/pest-plugin": true,
+            "php-http/discovery": true
         }
     },
     "minimum-stability": "stable",

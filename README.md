@@ -1,4 +1,4 @@
-# Laravel 9 國道客運車票預訂
+# Laravel 10 國道客運車票預訂
 
 整合多家客運業資訊，旅客查詢、訂購國道客運車票更省時、便利。
 
@@ -27,11 +27,11 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/q8Z92wo.png)
+![](https://i.imgur.com/aTPUieC.png)
 > 旅客查詢、預訂國道客運車票更省時、便利
 
-![](https://i.imgur.com/R4VNfjh.png)
+![](https://i.imgur.com/nrPcSAA.png)
 > 加入國道客運，提供旅遊交通服務
 
-![](https://i.imgur.com/L6y9F6b.png)
+![](https://i.imgur.com/w8VEky4.png)
 > 請務必留意發車時間並提前完成旅客預訂手續
