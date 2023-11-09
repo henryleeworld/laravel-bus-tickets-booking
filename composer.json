@@ -7,12 +7,12 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^10.25",
+        "laravel/framework": "^10.26",
         "laravel/passport": "^11.9",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2",
-        "yajra/laravel-datatables-oracle": "^10.8"
+        "yajra/laravel-datatables-oracle": "^10.10"
     },
     "require-dev": {
         "bugsnag/bugsnag-laravel": "^2.26",
@@ -22,7 +22,7 @@
         "laravel/sail": "^1.25",
         "mockery/mockery": "^1.6.6",
         "nunomaduro/collision": "^7.9",
-        "phpunit/phpunit": "^10.3",
+        "phpunit/phpunit": "^10.4",
         "spatie/laravel-ignition": "^2.3"
     },
     "autoload": {
