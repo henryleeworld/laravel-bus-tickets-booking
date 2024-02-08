@@ -7,12 +7,12 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.8",
-        "laravel/framework": "^10.29",
-        "laravel/passport": "^11.9",
+        "laravel/framework": "^10.31",
+        "laravel/passport": "^11.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2",
-        "yajra/laravel-datatables-oracle": "^10.10"
+        "yajra/laravel-datatables-oracle": "^10.11"
     },
     "require-dev": {
         "bugsnag/bugsnag-laravel": "^2.26",
